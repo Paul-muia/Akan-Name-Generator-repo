@@ -4,36 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan Name Generator</title>
-    <link rel="stylesheet" href="index.css">
-  
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
     <header>
       <h1>Akan Name Finder</h1>
       <p>Discover your Akan name based on your birthdate and gender!</p>
-  </header>
-  <main>
-    <form id="akan-form">
-      <label for="birthdate">Enter your birthday:</label>
-      <input type="date" id="birthdate" name="birthdate" required>
+    </header>
+    <main>
+      <form id="akan-form">
+        <label for="birthdate">Enter your birthday:</label>
+        <input type="date" id="birthdate" name="birthdate" required />
 
-      <label for="gender">Select your gender:</label>
-      <div>
-          <input type="radio" id="male" name="gender" value="male" required>
+        <label for="gender">Select your gender:</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="male" required />
           <label for="male">Male</label>
-          <input type="radio" id="female" name="gender" value="female" required>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
           <label for="female">Female</label>
-      </div>
+        </div>
 
-      <button type="submit">Find My Akan Name</button>
-  </form>
-
-  <div id="result" style="display:none;">
-    <h2>Your Akan Name</h2>
-    <p id="akan-name"></p>
-</div>
-
-  </main>
+        <button type="submit">Find My Akan Name</button>
+      </form>
+    </main>
   </body>
 </html>
