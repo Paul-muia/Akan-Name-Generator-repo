@@ -87,7 +87,7 @@ div {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4592a0;
     color: white;
     border: none;
     cursor: pointer;
@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-    background-color: #4592a0;
+    background-color: #4CAF50;
     transform: scale(1.05);
 }
 
